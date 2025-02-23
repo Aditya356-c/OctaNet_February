@@ -40,5 +40,8 @@ Built with a minimalist and modern design approach, Strides delivers a clean and
 
 ⭐ **User Centric** : Designed with user in mind, so it's enjoyable and effective to use.
 
+
+### <a href="https://strides-design.vercel.app" name="live-demo">🔥Live Demo</a>
+
 <br/>
 <span>made with ❤️ Aditya Dharmashale</span>
