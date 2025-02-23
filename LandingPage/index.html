@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strides</title>
+    <link
+      rel="shortcut icon"
+      href="src/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav flex_row">
+        <!-- Logo | Menu button -->
+        <div class="logo_menu-container flex_row">
+          <!-- Logo  -->
+          <a href="/" class="nav_logo">
+            <img src="src/assets/svgs/Logo.svg" alt="Strides" />
+          </a>
+          <!-- mobile menu icons -->
+          <button class="menu_btn" id="open_close-menu">
+            <i class="ri-menu-line" id="menu-icon"></i>
+          </button>
+        </div>
+        <!-- Links -->
+        <div class="mobile_view-link flex_row" id="mobile-menu">
+          <!-- Nav Links -->
+          <ul class="nav_link flex_row">
+            <a href="#solution-section" class="nav_link-item">Solution</a>
+            <a href="#" class="nav_link-item">Pricing</a>
+            <a href="#" class="nav_link-item">Templates</a>
+          </ul>
+          <!-- Nav Action buttons -->
+          <button class="primary_button nav_login">Login</button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ======== HERO SECTION ============ -->
+      <section class="hero_section container" id="hero-section">
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">
+              UI/UX Design Subscriptions to Scale Your Business
+            </h1>
+            <p class="section_para">
+              All the design you need to scale, reduce costs, and move quickly
+              while maintaining consistency.
+            </p>
+          </div>
+          <!-- Footer -->
+          <div class="detail_footer flex_row">
+            <!-- See Pricing -->
+            <button class="primary_button">
+              <a href="#" class="flex_row hero-cta">
+                <span>See Pricing</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </button>
+            <!-- Slots Left -->
+            <div class="slots_left flex_row">
+              <span class="slots_left-dot"></span>
+              <span class="slots_left-text">Only 2 of 5 slots left</span>
+            </div>
+          </div>
+        </div>
+        <!-- Section Illustration -->
+        <div class="section_image">
+          <img
+            src="src/assets/svgs/sectionSvgs/Hero_Illustration.svg"
+            alt="Hero_Image"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <!-- ======== PAIN SECTION ============ -->
+      <section class="pain_section container left-rigth">
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">
+              Stop losing time seeking the ideal design partner
+            </h1>
+            <p class="section_para">
+              You want to build great products, but hiring in-house,
+              freelancers, or agencies can be taxing...
+            </p>
+          </div>
+        </div>
+        <!-- Section Illustration -->
+        <div class="section_image">
+          <img
+            src="src/assets/svgs/sectionSvgs/Pain_Image.svg"
+            alt="Partner_Image"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <!-- ======== SOLUTION SECTION ============ -->
+      <section class="solution_section container" id="solution-section">
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">
+              Take great strides with a cost-effective design solution
+            </h1>
+            <p class="section_para">
+              We offers a UI/UX design subscription that help you build
+              user-centric products, scaling consistently.
+            </p>
+          </div>
+          <!-- Trusts -->
+          <div class="trust_container">
+            <!-- Fast turnaround -->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Fast turnaround</span>
+            </div>
+            <!-- Unlimited requests -->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Unlimited requests</span>
+            </div>
+            <!-- Simple price-->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Simple price</span>
+            </div>
+            <!-- Cancel anytime -->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Cancel anytime</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== TEAM SECTION ============ -->
+      <section class="team_section container_flip left-rigth">
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">Work with Top 1% Seniors Designers</h1>
+            <p class="section_para">
+              Get designers who've worked with Fortune 500 companies and
+              startups at a lower cost than direct hiring.
+            </p>
+          </div>
+          <!-- Footer -->
+          <div class="detail_footer">
+            <span class="free_try">Try 7 days for free</span>
+          </div>
+        </div>
+        <!-- Section Illustration -->
+        <div class="section_image">
+          <img
+            src="src/assets/svgs/sectionSvgs/Team_Image.svg"
+            alt="Team_Image"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <!-- ======== COMMUNICATION SECTION ============ -->
+      <section
+        class="communication_section container left-rigth"
+        id="commu-section"
+      >
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">Streamline the communication</h1>
+            <p class="section_para">
+              Manage your design requests in your board or invite us to your
+              preferred tool, like Slack.
+            </p>
+          </div>
+        </div>
+        <!-- Section Illustration -->
+        <div class="section_image">
+          <img
+            src="src/assets/svgs/sectionSvgs/Communication_Image.svg"
+            alt="Communication_Image"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <!-- ======== COLLABORATION SECTION ============ -->
+      <section
+        class="collab_section container_flip left-rigth"
+        id="collab-section"
+      >
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">
+              Iterate Work that Allows Collaboration
+            </h1>
+            <p class="section_para">
+              Get daily updates summaries to give you a quick overview of the
+              progress made.
+            </p>
+          </div>
+          <!-- Footer -->
+          <div class="detail_footer flex_row">
+            <span class="how_it-works">See how it works</span>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+        </div>
+        <!-- Section Illustration -->
+        <div class="section_image">
+          <img
+            src="src/assets/svgs/sectionSvgs/Collab_Image.svg"
+            alt="Team_Image"
+            loading="lazy"
+          />
+        </div>
+      </section>
+      <!-- ======== COVER AREAS SECTION ============ -->
+      <section class="areacover_section container">
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">See Our Mainly Covered Areas</h1>
+          </div>
+          <!-- Trusts -->
+          <div class="area_container">
+            <!-- Fast turnaround -->
+            <div class="flex_row">
+              <div class="cover_item">Website Design</div>
+              <div class="cover_item">Mobile App</div>
+              <div class="cover_item">SaaS Design</div>
+              <div class="cover_item">Dashboard Design</div>
+              <div class="cover_item">Product Redesign</div>
+            </div>
+            <!-- Line 2 -->
+            <div class="flex_row">
+              <div class="cover_item">Interactives Prototypes</div>
+              <div class="cover_item">Design System</div>
+              <div class="cover_item">UI Kit Design</div>
+              <div class="cover_item">Wireframes</div>
+            </div>
+            <!-- Line 3 -->
+            <div class="flex_row">
+              <div class="cover_item">Problem Discovery</div>
+              <div class="cover_item">Solution Discovery</div>
+              <div class="cover_item">Quality Assurance</div>
+              <div class="cover_item">Webflow Development</div>
+            </div>
+            <!-- Line 4 -->
+            <div class="flex_row">
+              <div class="cover_item">Landing Page Design</div>
+              <div class="cover_item">Creative Design</div>
+              <div class="cover_item">Social Media Design</div>
+              <div class="cover_item">Email Design</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ======== CTA SECTION ============ -->
+      <section class="cta_section container">
+        <!-- Section Details -->
+        <div class="section_detail">
+          <!-- Content -->
+          <div class="section_content">
+            <h1 class="section_header">Create your first request</h1>
+            <p class="section_para">
+              Get all the design you need to take great strides.
+            </p>
+          </div>
+          <!-- Footer -->
+          <div class="detail_footer flex_row">
+            <!-- free trial -->
+            <button class="primary_button">
+              <a href="#" class="hero-cta">
+                <span>Start 7-day free trial</span>
+              </a>
+            </button>
+            <!-- Price -->
+            <button>
+              <a href="#" class="price_button">
+                <span>See Pricing</span>
+              </a>
+            </button>
+          </div>
+          <!-- Trusts -->
+          <div class="trust_container">
+            <!-- Fast turnaround -->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Fast turnaround</span>
+            </div>
+            <!-- Unlimited requests -->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Unlimited requests</span>
+            </div>
+            <!-- Simple price-->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Simple price</span>
+            </div>
+            <!-- Cancel anytime -->
+            <div class="trust_item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Cancel anytime</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_wrapper">
+        <!-- Logo -->
+        <div class="footer_logo-wrapper">
+          <a href="/" class="footer_logo">
+            <img src="src/assets/svgs/Logo.svg" alt="Strides" />
+          </a>
+          <p>Design services for building better products and experiences.</p>
+        </div>
+        <!-- Nav Links -->
+        <div class="footer_link">
+          <div class="link_container">
+            <a href="/" class="link_item">Solution</a>
+            <a href="/" class="link_item">Pricing</a>
+            <a href="/" class="link_item">Templates</a>
+          </div>
+          <div class="link_container">
+            <a href="/" class="link_item">Customer Login</a>
+            <a href="/" class="link_item">Terms of use</a>
+            <a href="/" class="link_item">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <!-- CopyRight -->
+      <small class="copyright">© 2023 Strides. All Rights Reserved.</small>
+    </footer>
+
+    <!-- ======= JAVASCRIPT ===== -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    
+    <script src="src/script.js"></script>
+  </body>
+</html>
